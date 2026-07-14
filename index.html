@@ -1,81 +1,77 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Avnesh Jan Seva Kendra</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#f2f6ff;
+background:#eef5ff;
+color:#333;
 }
 
 header{
-background:#0056b3;
-color:white;
+background:linear-gradient(135deg,#0056d6,#0099ff);
+color:#fff;
+padding:25px;
 text-align:center;
-padding:30px;
 }
 
-header img{
-width:150px;
+.logo{
+width:140px;
+height:140px;
 border-radius:50%;
-margin-bottom:15px;
+background:#fff;
+padding:8px;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
 
 header h1{
+margin-top:15px;
 font-size:38px;
 }
 
 header p{
-font-size:20px;
 margin-top:10px;
+font-size:18px;
 }
 
-.container{
-width:90%;
-margin:auto;
-padding:30px 0;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.15);
-margin-bottom:25px;
-}
-
-.card h2{
-color:#0056b3;
-margin-bottom:15px;
-}
-
-ul{
-line-height:2;
-font-size:20px;
-}
-
-.buttons{
+.hero{
+padding:40px 20px;
 text-align:center;
-margin-top:20px;
+}
+
+.hero h2{
+font-size:34px;
+color:#0056d6;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
 }
 
 .btn{
 display:inline-block;
-padding:15px 25px;
-margin:10px;
+padding:14px 28px;
+border-radius:40px;
 text-decoration:none;
-font-size:18px;
-border-radius:10px;
-color:white;
+color:#fff;
+font-weight:bold;
+margin:10px;
+transition:.3s;
 }
 
 .whatsapp{
@@ -86,74 +82,156 @@ background:#25D366;
 background:#ff6600;
 }
 
+.btn:hover{
+transform:scale(1.08);
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.service{
+background:#fff;
+border-radius:15px;
+padding:25px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.service:hover{
+transform:translateY(-8px);
+}
+
+.service h3{
+color:#0056d6;
+margin-bottom:10px;
+}
+.service p{
+font-size:15px;
+color:#666;
+}
+
+.contact{
+background:#0056d6;
+color:#fff;
+padding:40px 20px;
+text-align:center;
+}
+
+.contact h2{
+font-size:30px;
+margin-bottom:20px;
+}
+
+.contact p{
+font-size:18px;
+margin:10px 0;
+}
+
 footer{
-background:#0056b3;
-color:white;
+background:#003b91;
+color:#fff;
 text-align:center;
 padding:20px;
-margin-top:30px;
 }
-</style>
 
+</style>
 </head>
+
 <body>
 
 <header>
 
-<img src="https://i.imgur.com/9O8Kf6n.png">
+<img src="logo.png" class="logo">
 
-<h1>अवनेश जन सेवा केन्द्र</h1>
+<h1>Avnesh Jan Seva Kendra</h1>
 
-<p>सभी सरकारी सेवाएं एक ही स्थान पर</p>
+<p>आपकी सेवा • हमारा संकल्प</p>
 
 </header>
 
-<div class="container">
+<section class="hero">
 
-<div class="card">
+<h2>सभी सरकारी सेवाएं एक ही स्थान पर</h2>
 
-<h2>हमारी सेवाएं</h2>
-
-<ul>
-<li>✅ आधार कार्ड</li>
-<li>✅ आधार अपडेट</li>
-<li>✅ पैन कार्ड</li>
-<li>✅ आय / जाति / निवास</li>
-<li>✅ आयुष्मान कार्ड</li>
-<li>✅ रेल टिकट बुकिंग</li>
-<li>✅ बिजली बिल भुगतान</li>
-<li>✅ मोबाइल रिचार्ज</li>
-<li>✅ ऑनलाइन फॉर्म</li>
-<li>✅ अन्य सरकारी सेवाएं</li>
-</ul>
-
-<div class="buttons">
+<p>आधार • पैन • आयुष्मान • ऑनलाइन फॉर्म • बिजली बिल • रेलवे टिकट • सरकारी योजनाएं</p>
 
 <a class="btn whatsapp" href="https://wa.me/919027207577">WhatsApp</a>
 
-<a class="btn call" href="tel:+919027207577">Call Now</a>
+<a class="btn call" href="tel:9027207577">Call Now</a>
 
+</section>
+
+<section class="services">
+
+<div class="service">
+<h3>आधार कार्ड</h3>
+<p>नया आधार, अपडेट एवं सुधार</p>
 </div>
 
+<div class="service">
+<h3>पैन कार्ड</h3>
+<p>नया पैन एवं सुधार</p>
 </div>
 
-<div class="card">
+<div class="service">
+<h3>आय / जाति / निवास</h3>
+<p>ऑनलाइन आवेदन</p>
+</div>
+
+<div class="service">
+<h3>आयुष्मान कार्ड</h3>
+<p>आवेदन एवं डाउनलोड</p>
+</div>
+
+<div class="service">
+<h3>रेल टिकट</h3>
+<p>IRCTC टिकट बुकिंग</p>
+</div>
+
+<div class="service">
+<h3>बिजली बिल</h3>
+<p>सभी कंपनियों के बिल भुगतान</p>
+</div>
+<div class="service">
+<h3>ऑनलाइन फॉर्म</h3>
+<p>सभी सरकारी एवं निजी फॉर्म</p>
+</div>
+
+<div class="service">
+<h3>अन्य सेवाएं</h3>
+<p>जन सेवा केंद्र की सभी ऑनलाइन सेवाएं उपलब्ध</p>
+</div>
+
+</section>
+
+<section class="contact">
 
 <h2>संपर्क करें</h2>
 
-<p><b>📍 पता:</b> Village Echhawari, Dibai, Bulandshahr</p><br>
+<p>📍 Village Echhawari, Dibai, Bulandshahr, Uttar Pradesh</p>
 
-<p><b>📞 मोबाइल:</b> 9027207577</p><br>
+<p>📞 9027207577</p>
 
-<p><b>✉ Email:</b> avnesh8923kumar@gmail.com</p>
+<p>📧 avnesh8923kumar@gmail.com</p>
 
-</div>
+<p>
+<a class="btn whatsapp" href="https://wa.me/919027207577">
+WhatsApp पर संपर्क करें
+</a>
+</p>
 
-</div>
+</section>
 
 <footer>
 
-© 2026 Avnesh Jan Seva Kendra | सभी अधिकार सुरक्षित
+<p>© 2026 Avnesh Jan Seva Kendra</p>
+
+<p>All Rights Reserved</p>
 
 </footer>
 
